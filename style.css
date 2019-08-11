@@ -1,0 +1,32 @@
+button
+{
+    background-color:white;
+    padding: 15px 35px;
+    margin: 10px;
+    border: 0px solid blue;
+}
+
+button:hover
+{
+    background-color: blue;
+    color: white;
+    box-shadow: 0 8px 16px 0
+    rgba(0,0,0,0.3), 0 6px 20px 0
+    rgba(0,0,0,0.2);
+   block-size:  250%;
+}
+
+
+
+#links
+{
+    text-align: right;
+    border: 2px solid blue;
+}
+
+.current
+{
+    border: 2px solid blue;
+}
+
+
