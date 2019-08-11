@@ -16,7 +16,17 @@ button:hover
    block-size:  250%;
 }
 
+img
+{
+    align-content: center;
+}
 
+@media (min-width: 540px ) {
+    .image
+    {
+    width: 75%;
+    }
+    }
 
 #links
 {
