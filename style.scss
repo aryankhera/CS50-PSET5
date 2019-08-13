@@ -1,0 +1,20 @@
+$color: green;
+
+%messsdiv{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    h1
+    {
+        @extend %messsdiv;
+        color: $color;
+    }
+    h2
+    {
+        @extend %messsdiv;
+        color: yellow;
+    }
+    p
+    {
+        color: $color;
+    }
